@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareModel App</title>
+    <!-- <link rel="stylesheet" href="./main.css"> -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+
+<div class="circle1"></div>
+<div class="circle2"></div>
+
+<div class="wrapper">
+    <div class="card-wrapper">
+        <div> <img src="ayush.jpg" alt="Error"></div>
+       
+
+<div class="user-name">
+    <h2>Ayush Chakraborty</h2>
+</div>
+
+
+<div class="designation">
+    <h3>Founder - AyushzorxPay</h3>
+</div>
+
+<div class="bottom-group">
+
+<button  class="btn-share btn-card" onclick="openModal()">
+    <i class="fa-solid fa-share"></i><span>Share my Profile</span>
+</button>
+
+<button class="btn-follow btn-card" onclick="openModal_2()">Follow me</button>
+
+  </div>
+
+    </div>
+       </div>
+
+
+<!-- Click Model Component -->
+
+<div class="model">
+<div class="model-header">
+    <h1>Share My Profile</h1>
+      <div>
+        <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+      </div>
+</div>
+
+<!-- Bottom Part of Model clicking part -->
+
+<div>
+
+    <h3>Share this via</h3>
+
+    
+    <div class="icon-container">
+      <a href="#" class="icon" id="facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+
+      <a href="#" class="icon" id="twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+
+      <a href="#" class="icon" id="instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+      <a href="#" class="icon" id="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+      <a href="#" class="icon" id="telegram">
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+<!-- follow sec -->
+<div class="model_2">
+    <div class="model_2-header">
+        <h1>Get in the Follow List</h1>
+          <div>
+            <i onclick="closeModal_2()" class="fa-solid fa-xmark close"></i>
+          </div>
+    </div>
+    
+    <!-- Bottom Part of Model clicking part -->
+    
+    <div>
+    
+        <h3>Follow me via</h3>
+    
+        
+        <div class="icon-container">
+          <a href="#" class="icon" id="github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+
+ <!-- Overlay -->
+ <div class="overlay" onclick="closeModal()"></div>
+ <div class="overlay" onclick="closeModal_2()"></div>
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</body>
+</html>
